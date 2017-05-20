@@ -1,0 +1,72 @@
+<html>
+<head>
+    <link rel="stylesheet" href="CSS/b_style.css">
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="Images/logo.png" alt="Devona">
+            </div>
+        </div>
+        <div class="nav">
+        <ul>
+            <li><a href="">Product</a></li>
+            <li><a href="">Categories</a></li>
+            <li><a href="">Users</a></li>
+            <li><a href="">Gaurav<i class="fa fa-sign-out"></i></a></li>
+        </ul>
+    </div>
+    <div class="product_pannel">
+        <div class="search">
+
+            <div>
+            <label for="wear">Search</label>
+            <select name="wear" id="wear">
+                <option value="Mens">Mens</option>
+                <option value="Womens">Womens</option>
+            </select>
+            </div>
+
+            <div>
+            <label for="type">GarmentType</label>
+            <select name="type" id="type">
+                <option value="-1">Select</option>
+                <option value="Shirt">Shirt</option>
+                <option value="Trouser">Trouser</option>
+                <option value="Jacket">Jacket</option>
+                <option value="Suit">Suit</option>
+                <option value="Sherwani">Sherwani</option>
+                <option value="Kurta">Kurta</option>
+            </select>
+            </div>
+
+            <div>
+                <label for="size">Size</label>
+                <select name="size" id="size">
+                    <option value="-1">Select</option>
+                    <option value="36">36</option>
+                    <option value="38">38</option>
+                    <option value="40">40</option>
+                    <option value="42">42</option>
+                    <option value="44">44</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="size">Price</label>
+                <input type="number" name="min_price" id="min_price" placeholder="MIN"> to
+                <input type="number" name="max_price" id="max_price" placeholder="MAX">
+            </div>
+
+            <div>
+                <input type="submit" value="Search">
+                <input type="reset" value="Clear">
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

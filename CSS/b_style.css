@@ -1,0 +1,257 @@
+@import url('/font-awesome-4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body {
+    background-color: #E7E4E0;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+.login_container {
+    margin: auto;
+    background-color: #341722;
+    max-width: 400px;
+    margin-top: 5%;
+    padding: 25px;
+    padding-bottom: 0px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px grey;
+}
+
+.login_logo {
+    text-align: center;
+}
+
+.login_logo img {
+    max-width: 250px;
+    height: auto;
+}
+
+.login_content {
+    padding: 25px;
+    padding-bottom: 5px;
+}
+
+.login_content input[type="text"],
+.login_content input[type="password"] {
+    margin: 5px;
+    padding: 8px 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+}
+
+.login_button_container {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+
+.login_button {
+    flex: 1;
+    text-align: center;
+}
+
+.login_button input[type="submit"],
+.login_button input[type="reset"] {
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.login_error {
+    text-align: center;
+    color: red;
+}
+
+.container {
+    margin: auto;
+    max-width: 1000px;
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    background-color: #341722;
+}
+
+.logo img {
+    max-width: 250px;
+    height: auto;
+}
+
+.logo {
+    padding: 15px;
+    text-align: center;
+    flex: 1;
+}
+
+.login {
+    color: white;
+    vertical-align: bottom;
+    line-height: ;
+}
+
+.nav {
+    height: 30px;
+    background-color: burlywood;
+}
+
+.nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li:last-child {
+    float: right;
+}
+
+.nav a {
+    line-height: 30px;
+    text-decoration: none;
+    color: inherit;
+    padding: 0px 10px;
+}
+
+.nav a:hover {
+    color: brown;
+}
+
+.nav i {
+    margin: 0px 5px;
+}
+
+.search {
+    padding: 5px;
+    background-color: black;
+    margin: 10px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.search div {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 5px;
+    align-content: center;
+}
+
+.search input {
+    width: 90px;
+    padding: 3px;
+}
+
+.search select {
+    padding: 3px 8px;
+}
+
+.search * {
+    margin: 0px 3px;
+}
+
+.filter {
+    padding: 5px;
+}
+
+.add_prod {
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.add_prod #open_category {
+    color: green;
+}
+
+#close_category {
+    float: right;
+    margin-top: -45px;
+    margin-right: -45px;
+    cursor: pointer;
+}
+
+.add_prod input[type="submit"],
+.add_prod input[type="reset"] {
+    padding: 5px 10px;
+    background-color: #341722;
+    color: white;
+    border: 0px;
+}
+
+.add_prod table {
+    margin: auto;
+}
+
+.add_prod td {
+    padding: 10px;
+}
+
+.add_prod select,
+.add_prod input[type="number"],
+.add_prod input[type="text"] {
+    padding: 5px;
+    width: 150px;
+}
+
+.add_prod textarea {
+    width: 150px;
+    height: 100px;
+}
+
+.add_prod input[name="prod_price"] {
+    font-family: 'FontAwesome';
+}
+
+.add_prod_container {
+    padding: 10px;
+    flex: 1;
+}
+.popup_main {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+}
+
+.add_category {
+    margin: 10% auto;
+    max-width: 400px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.add_category table {
+    margin: auto;
+}
+
+.add_category td {
+    padding: 10px;
+}
+
+
+.add_category select,
+.add_category input[type="text"] {
+    padding: 5px;
+    width: 150px;
+}
+
+.add_category input[type="submit"],
+.add_category input[type="reset"] {
+    padding: 5px 10px;
+    background-color: #341722;
+    color: white;
+    border: 0px;
+}
