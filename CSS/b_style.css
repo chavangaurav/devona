@@ -202,12 +202,15 @@ body {
     width: 150px;
 }
 
+
 .add_prod textarea {
     width: 150px;
     height: 100px;
 }
 
-.add_prod input[name="prod_price"] {
+.add_prod input[name="prod_price"],
+.add_prod input[name="disc_price"]
+{
     font-family: 'FontAwesome';
 }
 
