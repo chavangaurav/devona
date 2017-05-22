@@ -163,19 +163,19 @@ body {
 
 .add_prod {
     padding: 10px;
-    margin: auto;
-    border-radius: 5px;
-    text-align: center;
 }
 
-.add_prod #open_category {
+#open_category, #open_user {
     color: green;
+    margin: 0px 10px;
+    cursor: pointer;
 }
 
-#close_category {
+#close_category,#close_user {
     float: right;
-    margin-top: -45px;
-    margin-right: -45px;
+    margin-top: -30px;
+    margin-right: -30px;
+    color: inherit;
     cursor: pointer;
 }
 
@@ -216,7 +216,6 @@ body {
 
 .add_prod_container {
     padding: 10px;
-    flex: 1;
 }
 .popup_main {
     display: none;
@@ -231,7 +230,7 @@ body {
 .add_category {
     margin: 10% auto;
     max-width: 400px;
-    padding: 25px;
+    padding: 10px;
     background-color: white;
     border-radius: 5px;
 }
@@ -258,3 +257,68 @@ body {
     color: white;
     border: 0px;
 }
+
+.add_user {
+    padding: 10px;
+    background-color: white;
+    width: 400px;
+    border-radius: 5px;
+    margin: 5% auto;
+}
+
+.add_user table {
+    margin: auto;
+}
+
+.add_user td {
+    padding: 10px;
+}
+
+.add_user input[type="password"],
+.add_user input[type="number"],
+.add_user input[type="text"] {
+    padding: 5px;
+    width: 150px;
+}
+
+.add_user input[type="submit"],
+.add_user input[type="reset"] {
+    padding: 5px 10px;
+    background-color: #341722;
+    color: white;
+    border: 0px;
+}
+
+.add_user input[type="number"] {
+    padding: 5px;
+    width: 150px;
+    font-family: 'FontAwesome';
+}
+.view_user table {
+    margin: auto;
+    border-collapse: collapse;
+
+}
+
+.view_user tr:hover {
+    background-color: rgba(211,211,211,0.5);
+}
+
+.view_user tr:hover th{
+    background-color: white;
+}
+
+.view_user caption {
+    padding: 10px 0px;
+}
+
+.view_user td,.view_user th {
+    padding: 10px;
+    max-width: 150px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+
